@@ -3,6 +3,7 @@ package org.uqbarproject.entes
 import org.junit.Assert;
 import org.junit.Before
 import org.junit.Test
+import org.uqbarproject.wollokui.CodeInjector;
 import org.uqbarproject.wollokui.GameBoard
 
 class TestInyeccion {

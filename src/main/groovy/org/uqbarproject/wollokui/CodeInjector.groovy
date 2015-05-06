@@ -1,6 +1,5 @@
-package org.uqbarproject.entes
+package org.uqbarproject.wollokui
 
-import org.uqbarproject.wollokui.GameBoard
 
 class CodeInjector {
 	def inject(Object unObjeto) {
