@@ -38,7 +38,9 @@ class TestInyeccion {
 	def void prueboSetPropertyConListener(){
 		inyectorDeCodigo.addListener(pepe,tablero)
 		pepe.setNombre("pepin")
+		Assert.assertEquals("pepin",pepe.getNombre())
 		Assert.assertEquals(true,tablero.getUpdated())
+		
 	}
 	
 	@Test
